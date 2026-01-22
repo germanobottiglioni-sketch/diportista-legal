@@ -1,0 +1,65 @@
+﻿export 'legal/disclaimer_page.dart';
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Diportista – Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Diportista app." />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.55;margin:0;background:#0b1220;color:#e8eefc}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px}
+    h1{font-size:28px;margin:0 0 6px}
+    .muted{color:#b9c6e4;font-size:14px;margin:0 0 18px}
+    .card{background:#111a2e;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px 16px}
+    h2{font-size:18px;margin:18px 0 8px}
+    ul{margin:8px 0 0 18px}
+    a{color:#9ecbff}
+    code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:8px}
+    footer{margin-top:16px;color:#b9c6e4;font-size:13px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Privacy Policy – Diportista</h1>
+    <p class="muted">Last updated: <span id="date"></span></p>
+
+    <section class="card">
+      <h2>1) Data processed</h2>
+      <p>
+        Diportista may store on-device user-entered data and, if authorized, location data to track an outing.
+      </p>
+
+      <h2>2) Where data is stored</h2>
+      <p>
+        Data is stored locally on your device. The app does not automatically send data to external servers.
+      </p>
+
+      <h2>3) Permissions</h2>
+      <ul>
+        <li><strong>Location</strong>: used to record GPS track during an outing, if enabled.</li>
+        <li><strong>Photos/Videos</strong>: used only as outing attachments, if selected by the user.</li>
+      </ul>
+
+      <h2>4) Sharing</h2>
+      <p>
+        When the user uses “Share”, the selected content is shared through apps installed on the device.
+      </p>
+
+      <h2>5) Backup &amp; restore</h2>
+      <p>
+        If the user exports/imports backups, the user is responsible for protecting those files.
+      </p>
+
+      <footer>
+        For questions or requests, contact:
+        <a href="mailto:diportista.app@gmail.com">diportista.app@gmail.com</a>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('date').textContent = new Date().toLocaleDateString('en-GB');
+  </script>
+</body>
+</html>
